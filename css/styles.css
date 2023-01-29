@@ -1,0 +1,111 @@
+.body {
+  background-color: FFFFFF;
+}
+
+:root {
+  --color-general: #2e2f42;
+  --color-additional: #434455;
+  --button-color: #4d5ae5;
+  --title-text-color: #ffffff;
+  --accent-color: #f4f4fd;
+  --button-hover-color: #e7e9fc;
+}
+
+.list {
+  list-style: none;
+}
+
+/*HEDER*/
+
+/*logo*/
+
+.logo {
+  color: var(--color-general);
+}
+.span-logo {
+  color: var(--button-color);
+}
+
+.logo:hover,
+.logo:focus {
+  color: var(--button-color);
+}
+
+/*nav*/
+.nav-link a {
+  color: var(--color-general);
+}
+.nav-link a:hover,
+.nav-link a:focus {
+  color: var(--button-color);
+}
+
+/*address*/
+
+.address-contact a {
+  color: var(--color-additional);
+}
+
+.address-contact a:hover,
+.address-contact a:focus {
+  color: var(--button-color);
+}
+
+/*hero*/
+
+.hero {
+  background-color: var(--color-general);
+}
+
+.hero-title {
+  color: var(--title-text-color);
+}
+
+.hero-button {
+  color: var(--title-text-color);
+  background-color: var(--button-color);
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: transparent;
+}
+/*Benefits*/
+.benefit-title {
+}
+.benefits h3 {
+  color: var(--color-general);
+}
+
+.benefits p {
+  color: var(--color-additional);
+}
+
+/*services*/
+.services-title {
+  color: var(--color-general);
+}
+/*team*/
+
+.team {
+  background-color: var(--accent-color);
+}
+.team-title {
+  color: var(--color-general);
+}
+.team h3 {
+  content: var(--color-general);
+}
+.team p {
+  color: var(--color-additional);
+}
+
+/*footer*/
+.footer {
+  background-color: var(--color-general);
+}
+.span-logo-footer {
+  color: var(--title-text-color);
+}
+.footer p {
+  color: var(--accent-color);
+}
