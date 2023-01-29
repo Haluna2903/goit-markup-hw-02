@@ -1,5 +1,6 @@
-.body {
-  background-color: FFFFFF;
+body {
+  color: #2e2f42;
+  background-color: #ffffff;
 }
 
 :root {
@@ -70,31 +71,19 @@
   background-color: transparent;
 }
 /*Benefits*/
-.benefit-title {
-}
-.benefits h3 {
-  color: var(--color-general);
-}
 
 .benefits p {
   color: var(--color-additional);
 }
 
 /*services*/
-.services-title {
-  color: var(--color-general);
-}
+
 /*team*/
 
 .team {
   background-color: var(--accent-color);
 }
-.team-title {
-  color: var(--color-general);
-}
-.team h3 {
-  content: var(--color-general);
-}
+
 .team p {
   color: var(--color-additional);
 }
