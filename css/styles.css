@@ -23,7 +23,7 @@ body {
 .logo {
   color: var(--color-general);
 }
-.span-logo {
+.logo-ancolor {
   color: var(--button-color);
 }
 
@@ -33,22 +33,22 @@ body {
 }
 
 /*nav*/
-.nav-link a {
+.nav .nav-link {
   color: var(--color-general);
 }
-.nav-link a:hover,
-.nav-link a:focus {
+.nav .nav-link:hover,
+.nav .nav-link:focus {
   color: var(--button-color);
 }
 
 /*address*/
 
-.address-contact a {
+.contact .contact-link {
   color: var(--color-additional);
 }
 
-.address-contact a:hover,
-.address-contact a:focus {
+.contact .contact-link:hover,
+.contact .contact-link:focus {
   color: var(--button-color);
 }
 
@@ -70,9 +70,9 @@ body {
 .hero-button:focus {
   background-color: transparent;
 }
-/*Benefits*/
+/*all section*/
 
-.benefits p {
+.section-text {
   color: var(--color-additional);
 }
 
@@ -84,17 +84,13 @@ body {
   background-color: var(--accent-color);
 }
 
-.team p {
-  color: var(--color-additional);
-}
-
 /*footer*/
 .footer {
   background-color: var(--color-general);
 }
-.span-logo-footer {
+.footer-logo-ancolor {
   color: var(--title-text-color);
 }
-.footer p {
+.footer-text {
   color: var(--accent-color);
 }
