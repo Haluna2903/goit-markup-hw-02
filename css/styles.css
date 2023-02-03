@@ -53,6 +53,10 @@ body {
   color: var(--button-color);
 }
 
+.nav-link.current {
+  color: var(--btn-color-herro-hover);
+}
+
 /*address*/
 .contact-link {
   text-decoration: none;
