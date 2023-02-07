@@ -55,7 +55,7 @@ body {
 }
 
 .nav-link.current {
-  color: var(--btn-color-herro-hover);
+  color: var(--button-color);
 }
 
 /*address*/
